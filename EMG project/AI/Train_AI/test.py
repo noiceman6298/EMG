@@ -4,7 +4,7 @@ from sklearn.preprocessing import StandardScaler, RobustScaler, MinMaxScaler
 from matplotlib.widgets import Button  # Added for the button widget
 
 # 1. Load data
-df = pd.read_csv(r'C:\Users\alifa\OneDrive\Documents\.vscode\VS CODE CODE\EMG project\AI\Data_Collector\emg_data.csv')
+df = pd.read_csv(r'')
 
 features = ['rms', 'std', 'min', 'max', 'mav', 'wfl', 'aac', 'zc', 'wamp', 'afb']
 """
