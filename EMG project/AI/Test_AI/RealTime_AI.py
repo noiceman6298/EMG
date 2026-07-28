@@ -5,7 +5,7 @@ import numpy as np
 
 ser = serial.Serial('COM9', 115200)
 
-with open(r'C:\Users\alifa\OneDrive\Documents\.vscode\VS CODE CODE\EMG project\AI\Train_AI\model.pkl', 'rb') as f:
+with open(r'', 'rb') as f:
     model = pickle.load(f)
 
 root = tk.Tk()
