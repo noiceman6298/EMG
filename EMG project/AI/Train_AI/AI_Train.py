@@ -11,7 +11,7 @@ import argparse
 import sys
 
 df = pd.read_csv(
-    r"C:\Users\alifa\OneDrive\Documents\.vscode\VS CODE CODE\EMG project\AI\Data_Collector\emg_data.csv"
+    r""
 )
 
 # Make sure the session column exists
