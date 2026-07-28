@@ -4,7 +4,7 @@ from sklearn.model_selection import GroupShuffleSplit
 from sklearn.model_selection import GridSearchCV
 import sys
 
-df = pd.read_csv(r'C:\Users\alifa\OneDrive\Documents\.vscode\VS CODE CODE\EMG project\AI\Data_Collector\emg_data.csv')
+df = pd.read_csv(r'')
 # Make sure the session column exists
 if "session" not in df.columns:
     sys.exit("CSV does not contain a 'session' column.")
